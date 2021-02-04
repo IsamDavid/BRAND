@@ -1,0 +1,39 @@
+:root{
+    --color-header:##fcd1d1;
+    --color-boton:##aee1e1;
+    --color-footer:##d3e0dc;
+    --color-fondo-secundario:##ece2e1;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.header{
+    width: 100%;
+    background-color: #fcd1d1;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__logo{
+    padding-left: 1rem;
+    
+}
+.nav__menu{
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+.nav__menu li{
+    text-decoration: none;
+    list-style: none;
+    padding-right: 1rem;
+}
